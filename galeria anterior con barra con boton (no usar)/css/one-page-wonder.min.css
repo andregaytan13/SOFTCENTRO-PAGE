@@ -1,0 +1,256 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/theme/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+body {
+    font-family: Lato;
+    background: -webkit-linear-gradient(to right, #0c3d7e, #009FFf);
+    background: linear-gradient(to right, #04324d, #009FFF);
+    
+}
+
+#Menu,#footersoft{
+    font-family: 'Play', sans-serif;
+    /*  font-family: Catamaran;*/
+      font-size: 200%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Play', sans-serif;
+    /*  font-family: Catamaran;
+      font-weight: 800 !important*/
+}
+
+.btn-xl {
+    text-transform: uppercase;
+    
+    padding       : 1.5rem 3rem;
+    font-size     : 1.2rem;
+    font-weight   : 700;
+    letter-spacing: .1rem
+    
+}
+
+.bg-black {
+    background-color: rgb(0, 0, 0) !important
+}
+
+.bg-special{
+    background-color: rgba(132, 17, 36, 1)
+}
+
+.bg-navy  { 
+    background-color: var(--navy) !important
+}
+
+
+.rounded-pill {
+    border-radius: 3rem
+}
+
+.navbar-custom {
+    padding-top     : 1rem;
+    padding-bottom  : 1rem;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    color:rgba(255, 255, 255);
+    font-size     : 1.6rem;
+    letter-spacing: .1rem;
+    
+    font-weight   : 700
+    
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+    
+    text-transform: uppercase;
+    font-size     : .8rem;
+    font-weight   : 700;    
+    letter-spacing: .1rem
+}
+
+
+header.masthead {
+    position             : relative;
+    overflow             : hidden;
+    padding-top          : calc(7rem + 72px);
+    padding-bottom       : 7rem;
+    background           : linear-gradient(0deg, #ff6a00 0, #002a75 100%);
+    background-repeat    : no-repeat;
+    background-position  : center center;
+    background-attachment: scroll;
+    background-size      : cover
+}
+
+header.masthead .masthead-content {
+    z-index : 1;
+    position: relative
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 4rem
+}
+
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 2rem
+}
+
+header.masthead .masthead-content .masthead-subheading2 {
+    font-size: 2rem
+}
+
+header.masthead .bg-circle {
+    z-index      : 0;
+    position     : absolute;
+    border-radius: 100%;
+    background   : linear-gradient(0deg, #ee0979 0, #00ccff 100%)
+}
+
+header.masthead .bg-circle-1 {
+    height: 90rem;
+    width : 90rem;
+    bottom: -55rem;
+    left  : -55rem
+}
+
+header.masthead .bg-circle-2 {
+    height: 50rem;
+    width : 50rem;
+    top   : -25rem;
+    right : -25rem
+}
+
+header.masthead .bg-circle-3 {
+    height: 20rem;
+    width : 20rem;
+    bottom: -10rem;
+    right : 5%
+}
+
+header.masthead .bg-circle-4 {
+    height: 30rem;
+    width : 30rem;
+    top   : -5rem;
+    right : 35%
+}
+
+@media (min-width:992px) {
+    header.masthead {
+        padding-top   : calc(10rem + 55px);
+        padding-bottom: 1rem
+    }
+
+    header.masthead .masthead-content .masthead-heading {
+        font-size: 6rem
+    }
+
+    header.masthead .masthead-content .masthead-subheading {
+        font-size: 4rem
+    }
+}
+
+.bg-primary {
+    background-color: #000000 !important
+}
+
+.btn-primary {
+    background-color: #002a75;
+    border-color    : #002a75
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #ffffff !important;
+    color:rgb(0, 0, 0);
+    border-color    : #ffffff !important
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0.5)
+}
+
+.btn-secondary {
+    background-color: #ff6a00;
+    border-color    : #ff6a00
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: #c50 !important;
+    border-color    : #c50 !important
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 106, 0, .5)
+}
+
+#optionsg{
+    color:rgb(0, 0, 0);
+}
+/* 
+#main{
+    height: calc(100vh - 352px);
+} */
+
+footer{
+    
+    bottom: 0px;
+    z-index: -10;
+}
+
+#sidebar{
+    position: fixed;
+    width:200px;
+    height: 100%;
+    background:white;
+    margin-top: -20px;
+    left:-200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active{
+    left:0;
+}
+
+#sidebar ul li{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    list-style:none;
+    border-bottom: 1px solid rgba(100,100,100,.3);
+    padding:15px;
+    list-style: none;
+}
+
+#sidebar .toggle-btn{
+    cursor: pointer;
+    position: absolute;
+    left:200px;   
+    
+}
+
+#sidebar .toggle-btn span{
+    display:block;
+    width: 40px;  
+    height: 100vh;
+    text-align:center;
+    font-size:30px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+     padding-top:300px;
+      
+   
+    
+}
+
+
